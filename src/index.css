@@ -16,3 +16,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.App__header {
+  display: flex;
+  flex-direction: row;
+  background-color: #173867;
+  color: #FFFFFF;
+}
+
+h1 {
+  font-size: 1.2em;
+}
+
+h2 {
+  color: #173867;
+  text-align: center;
+}

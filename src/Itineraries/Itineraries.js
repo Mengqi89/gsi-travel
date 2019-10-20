@@ -1,20 +1,21 @@
 import React from 'react'
+import './Itineraries.css'
 
 function Itineraries() {
     return (
-        <div className="Itineraries">
+        <div id='itineraries'>
             <h2>Itineraries</h2>
-            <div className="itineraries-container">
-                <div className="itinerary">
+            <div className='itineraries-container'>
+                <div className='itinerary'>
                     Tibet
                 </div>
-                <div className="itinerary">
+                <div className='itinerary'>
                     Yangtze River Cruise
                 </div>
-                <div className="itinerary">
+                <div className='itinerary'>
                     Guilin
                 </div>
-                <div className="itinerary">
+                <div className='itinerary'>
                     Beijing
                 </div>
             </div>
