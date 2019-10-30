@@ -6,17 +6,17 @@ function NavBarBottom() {
     // window.onscroll = function () {
     //     let currentScrollPos = window.pageYOffset;
     //     if (prevScrollpos > currentScrollPos) {
-    //         document.getElementById("NavBarBottom").style.top = "-60px";
+    //         document.getElementById("NavBarBottom").style.bottom = "0px";
     //     } else {
-    //         document.getElementById("NavBarBottom").style.top = "0px";
+    //         document.getElementById("NavBarBottom").style.bottom = "-35px";
     //     }
     //     prevScrollpos = currentScrollPos;
     // }
     return (
         <>
             <ul id='NavBarBottom'>
-                <li><a href='#itineraries'>Itineraries</a></li>
                 <li><a href='#WhyUs'>Why Us</a></li>
+                <li><a href='#itineraries'>Itineraries</a></li>
                 <li><a href='#testimonials'>Testimonials</a></li>
             </ul>
         </>

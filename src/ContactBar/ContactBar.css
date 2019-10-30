@@ -6,7 +6,7 @@
     position: fixed;
     width: 100%;
     height: 60px;
-    border-bottom: 1px solid rgba(229, 233, 229, 0.801);
+    border-bottom: var(--navbar-border);
     top: 0;
     transition: top 0.3s;
 }
@@ -23,17 +23,14 @@
     border: 1px solid white;
 }
 
-.contact {
+.contact div {
     font-size: 0.6em;
-    display: flex;
-    flex-direction: column;
-    justify-content: middle;
     margin-left: 20px;
 }
 
 h1 {
     font-family: 'Nothing You Could Do', cursive;
-    font-size: 0.8em;
+    font-size: 1em;
     width: 50%;
     height: 100%;
 }

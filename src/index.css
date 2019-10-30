@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  /* border: 1px dotted red; */
   margin: 0px;
   padding: 0px;
 }
@@ -8,15 +7,12 @@
 :root {
   --accent-red: rgba(194, 43, 43, 0.623);
   --navbar-gray: rgba(106, 112, 106, 0.3);
+  --navbar-border: 1px solid rgba(229, 233, 229, 0.801);
 }
 
 body {
   margin: 0;
   font-family: 'Josefin Sans', sans-serif;
-
-  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.4;
@@ -36,4 +32,9 @@ h1 {
 h2 {
   color: #173867;
   text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
