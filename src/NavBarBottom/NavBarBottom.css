@@ -1,0 +1,28 @@
+#NavBarBottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0em;
+    background: var(--navbar-gray);
+    transition: bottom 0.3s;
+}
+
+#NavBarBottom li {
+    width: calc(100% / 3);
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

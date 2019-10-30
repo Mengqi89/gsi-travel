@@ -1,16 +1,21 @@
 import React from 'react'
-import NavBar from './NavBar/NavBar'
+import ContactBar from './ContactBar/ContactBar'
 import Itineraries from './Itineraries/Itineraries'
 import WhyUs from './WhyUs/WhyUs'
 import Testimonials from './Testimonials/Testimonials'
+import NavBarBottom from './NavBarBottom/NavBarBottom'
+import Hero from './Hero/Hero'
 
 function App() {
   return (
     <div className='App'>
-      <header className='App__header'>
-        <h1>Great Sea Travel</h1>
-        <NavBar />
-      </header>
+      <section className='App__navbar'>
+        <ContactBar />
+        <NavBarBottom />
+      </section>
+      <section className='hero-container'>
+        <Hero />
+      </section>
       <main className='App__main'>
         <Itineraries />
         <WhyUs />

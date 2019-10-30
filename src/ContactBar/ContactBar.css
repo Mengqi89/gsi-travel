@@ -1,0 +1,52 @@
+#ContactBar {
+    display: flex;
+    flex-direction: row;
+    background: var(--navbar-gray);
+    color: white;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid rgba(229, 233, 229, 0.801);
+    top: 0;
+    transition: top 0.3s;
+}
+
+.contact-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-container:hover {
+    background: var(--accent-red);
+    border: 1px solid white;
+}
+
+.contact {
+    font-size: 0.6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: middle;
+    margin-left: 20px;
+}
+
+h1 {
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 0.8em;
+    width: 50%;
+    height: 100%;
+}
+
+h1 a {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1:hover {
+    background: var(--accent-red);
+    border: 1px solid white;
+}
