@@ -1,6 +1,5 @@
 import React from 'react'
 import './ContactBar.css'
-import { Link } from 'react-router-dom'
 
 function ContactBar() {
     let prevScrollpos = window.pageYOffset;
@@ -14,10 +13,16 @@ function ContactBar() {
         prevScrollpos = currentScrollPos;
     }
 
+    function scrollUp(ev) {
+        ev.preventDefault()
+        document.body.scrollTop = 0
+        document.documentElement.scrollTop = 0
+    }
+
     return (
         <div id='ContactBar'>
             <h1>
-                <Link to='/'>Great Sea Travel</Link>
+                <button onClick={ev => scrollUp(ev)}>Great Sea Travel</button>
             </h1>
             <div className='contact-container'>
                 <ul className='contact'>

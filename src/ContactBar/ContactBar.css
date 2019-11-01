@@ -24,26 +24,38 @@
 }
 
 .contact div {
-    font-size: 0.6em;
+    font-size: 0.8em;
     margin-left: 20px;
 }
 
 h1 {
     font-family: 'Nothing You Could Do', cursive;
-    font-size: 1em;
+    font-size: 1.2em;
     width: 50%;
     height: 100%;
 }
 
-h1 a {
+h1 button {
     height: 100%;
+    width: 100%;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    color: inherit;
+    background: transparent;
+    font-weight: bolder;
+    outline: none;
+    cursor: pointer;
 }
 
-h1:hover {
+button:hover {
     background: var(--accent-red);
     border: 1px solid white;
+}
+
+@media only screen and (min-width: 758px) {
+    h1 {
+        font-size: 2em;
+    }
+    .contact div {
+    font-size: 1.2em;
+}
 }
