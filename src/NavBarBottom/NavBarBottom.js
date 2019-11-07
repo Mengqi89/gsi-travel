@@ -2,16 +2,6 @@ import React from 'react'
 import './NavBarBottom.css'
 
 function NavBarBottom() {
-    // let prevScrollpos = window.pageYOffset;
-    // window.onscroll = function () {
-    //     let currentScrollPos = window.pageYOffset;
-    //     if (prevScrollpos > currentScrollPos) {
-    //         document.getElementById("NavBarBottom").style.bottom = "0px";
-    //     } else {
-    //         document.getElementById("NavBarBottom").style.bottom = "-35px";
-    //     }
-    //     prevScrollpos = currentScrollPos;
-    // }
     return (
         <>
             <ul id='NavBarBottom'>

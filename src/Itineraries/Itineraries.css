@@ -1,3 +1,7 @@
+#itineraries {
+    padding: 1em;
+}
+
 .itineraries-container {
     display: flex;
     flex-direction: column;
@@ -5,9 +9,45 @@
     
 }
 
-.itinerary {
-    width: 80%;
-    text-align: center;
+/* .itinerary {
     padding: 20vh;
     margin: 0.4em;
+} */
+
+.itinerary-image-1 {
+    height: 30vh;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    /* width: 100%; */
+    min-width: 100%;
+}
+
+.itinerary-image-2 {
+    height: 30vh;
+    background-image: url(../assets/yangtze.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.itinerary-image-3 {
+    height: 30vh;
+    background-image: url(../assets/guilin3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.itinerary-image-4 {
+    height: 30vh;
+    background-image: url(../assets/great-wall.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.itinerary {
+    width: 100%;
 }
