@@ -1,10 +1,11 @@
 import React from 'react'
+import { Route, Switch } from 'react-router-dom'
+import LandingPage from './LandingPage/LandingPage'
 import ContactBar from './ContactBar/ContactBar'
-import Itineraries from './Itineraries/Itineraries'
-import WhyUs from './WhyUs/WhyUs'
-import Testimonials from './Testimonials/Testimonials'
 import NavBarBottom from './NavBarBottom/NavBarBottom'
-import Hero from './Hero/Hero'
+import ItinerariesPage from './ItinerariesPage/ItinerariesPage'
+import WhyUs from './WhyUs/WhyUs'
+import VisaServices from './VisaServices/VisaServices'
 
 function App() {
   return (
@@ -13,14 +14,12 @@ function App() {
         <ContactBar />
         <NavBarBottom />
       </section>
-      <section className='hero-container'>
-        <Hero />
-      </section>
-      <main className='App__main'>
-        <Itineraries />
-        <WhyUs />
-        <Testimonials />
-      </main>
+      <Switch>
+        <Route exact path='/' component={LandingPage}></Route>
+        <Route path={'/itineraries'} component={ItinerariesPage}></Route>
+        <Route path={'/WhyUs'} component={WhyUs}></Route>
+        <Route path={'/VisaServices'} component={VisaServices}></Route>
+      </Switch>
     </div>
   )
 }

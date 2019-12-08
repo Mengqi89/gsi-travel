@@ -1,0 +1,47 @@
+#ItinerariesPage {
+    margin-top: 69px;
+}
+
+#itineraries-paragraph {
+    width: 90%;
+    margin: 1em auto;
+}
+
+.itineraries-container {
+    /* border: solid; */
+    display: flex;
+    flex-direction: column;
+}
+
+.itinerary {
+    border: var(--accent-red) 1px solid;
+    width: 100%;
+    text-align: center;
+    color: var(--accent-red);
+    margin: 0.3em 0px;
+    background: var(--navbar-gray);
+    border-radius: 5px;
+}
+
+h3 {
+    margin: 0.3em auto;
+}
+
+.itinerary-pic {
+    height: 10em;
+    /* border: var(--accent-red) 1px solid; */
+}
+
+.tibet {
+    background-image: url("../assets//tibet1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.yangtze {
+    background-image: url("../assets//yangtze.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

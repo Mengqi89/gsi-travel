@@ -1,0 +1,44 @@
+#visa-body {
+    background-image: url("../assets/passport1.jpg");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#visa-services {
+    color: white;
+    margin-top: 59px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    padding-top: 55%;
+}
+
+h2 {
+    margin: 1em auto;
+    padding: .5em;
+    border: #E3AD6E 1px solid;
+    border-radius: 2px;
+}
+
+ #visa-paragraph {
+     padding-left: 1em;
+    }
+
+
+@media screen and (min-width: 758px) {
+
+    #visa-services {
+    padding-top: 45%;
+}
+
+    h2 {
+        font-size: 40px;
+    }
+
+    #visa-paragraph {
+        font-size: 20px;
+    }
+
+}
