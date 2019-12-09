@@ -1,3 +1,23 @@
 #WhyUs {
     margin-top: 69px;
 }
+
+#WhyUs h2 {
+    padding-top: 1em;
+    font-size: 2em;
+    text-shadow: 2px 2px white;
+}
+
+#WhyUs p {
+    width: 80%;
+    margin: 1em auto;
+    padding: 1em;
+    text-align: left;
+    font-size: 1.2em;
+    text-shadow: 2px 2px white;
+}
+
+#WhyUs span {
+    color: var(--accent-red);
+    font-weight: bolder;
+}
