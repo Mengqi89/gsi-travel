@@ -1,6 +1,6 @@
 #ItinerariesPage {
-    margin-top: 59px;
-    height: 200vh;
+    margin: 59px auto;
+    height: 250vh;
     background-image: url("../assets/paper2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
