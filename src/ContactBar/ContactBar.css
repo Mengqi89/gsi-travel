@@ -16,10 +16,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background: var(--accent-red);
 }
 
 .contact-container:hover {
-    background: var(--accent-red);
+    background: transparent;
     border: 1px solid white;
 }
 
@@ -40,14 +41,14 @@ h1 button {
     width: 100%;
     text-align: center;
     color: inherit;
-    background: transparent;
+    background: var(--accent-red);
     font-weight: bolder;
     outline: none;
     cursor: pointer;
 }
 
-button:hover {
-    background: var(--accent-red);
+#ContactBar button:hover {
+    background: transparent;
     border: 1px solid white;
 }
 

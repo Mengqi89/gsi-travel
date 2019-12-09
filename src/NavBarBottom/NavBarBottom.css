@@ -29,7 +29,7 @@
 
 #NavBarBottom li:hover {
     background: var(--accent-red);
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 
 @media only screen and (min-width: 758px) {

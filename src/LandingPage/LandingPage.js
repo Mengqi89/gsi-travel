@@ -1,5 +1,4 @@
 import React from 'react'
-import Itineraries from '../Itineraries/Itineraries'
 import Hero from '../Hero/Hero'
 
 function App() {
