@@ -1,6 +1,6 @@
 #visa-body {
     background-image: url("../assets/passport1.jpg");
-    background-size: auto 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -12,7 +12,7 @@
     display: flex;
     flex-direction: column;
     width: 55%;
-    padding-top: 55%;
+    justify-content: center;
 }
 
 #visa-title {
@@ -20,25 +20,24 @@
     padding: .5em;
     border: #E3AD6E 1px solid;
     border-radius: 2px;
+    width: 70%;
 }
 
  #visa-paragraph {
      padding-left: 1em;
+     margin: auto;
+     width: 90%;
     }
 
 
 @media screen and (min-width: 758px) {
 
-    #visa-services {
-    padding-top: 45%;
-}
-
     #visa-title {
-        font-size: 40px;
+        font-size: 2em;
     }
 
     #visa-paragraph {
-        font-size: 20px;
+        font-size: 1.2em;
     }
 
 }
