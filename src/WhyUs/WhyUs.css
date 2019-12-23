@@ -1,5 +1,6 @@
 #WhyUs {
     margin: 59px auto;
+    width: 80%;
 }
 
 #WhyUs h2 {
@@ -9,7 +10,6 @@
 }
 
 #WhyUs p {
-    width: 80%;
     margin: 1em auto;
     padding: 1em;
     text-align: left;
@@ -20,4 +20,41 @@
 #WhyUs span {
     color: var(--accent-red);
     font-weight: bolder;
+}
+
+#membership {
+    margin: 1em auto;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+}
+
+.gbta {
+    height: 100%;
+    background-image: url(../assets//gbta.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.etc {
+    height: 100%;
+    background-image: url(../assets//etc.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#membership a {
+    height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    #membership {
+    flex-direction: row;
+}
+    #membership a {
+    width: 50%;
+}
 }

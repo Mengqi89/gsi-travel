@@ -52,7 +52,7 @@ h1 button {
     border: 1px solid white;
 }
 
-@media only screen and (min-width: 758px) {
+@media only screen and (min-width: 768px) {
     h1 {
         font-size: 2em;
     }

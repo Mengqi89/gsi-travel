@@ -8,6 +8,11 @@ function WhyUs() {
             <p>
                 Established since 2008, Great Sea Travel specializes in tours to China and cultural exchange activities. We work with a network of the best hotels, restaurants and transportation providers that offer exceptional service for American travelers. Our clients create memories by experiencing China’s vast cultural and geographical wonders. We look forward to making your trip to China exceptional!
             </p>
+            <h2>Membership</h2>
+            <div id='membership'>
+                <a href='https://www.gbta.org/' target='_blank' rel='noopener noreferrer'><div className='gbta'></div></a>
+                <a href='https://educationaltravel.travel/' target='_blank' rel='noopener noreferrer'><div className='etc'></div></a>
+            </div>
             <h2>What our clients say about us?</h2>
             <p>
                 “My husband and I went on a tour to China with Yao, including the Yangtze River tour.  Everything about it was a <span>wonderful</span> experience. He had it so <span>well-organized</span> that at every stop people were there waiting for us; our food was <span>delicious</span> and <span>ready</span>, and our buses were <span>on time</span>. I would, and have, recommended this tour company. It far exceeded our expectations! You will not be disappointed.”​  &mdash; <span>Carol & Dennis</span>

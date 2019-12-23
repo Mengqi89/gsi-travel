@@ -32,7 +32,7 @@
     /* border: 1px solid white; */
 }
 
-@media only screen and (min-width: 758px) {
+@media only screen and (min-width: 768px) {
     #NavBarBottom li a {
         font-size: 1.8em;
     }
