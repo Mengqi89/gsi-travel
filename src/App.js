@@ -14,12 +14,14 @@ function App() {
         <ContactBar />
         <NavBarBottom />
       </section>
-      <Switch>
-        <Route exact path='/' component={LandingPage}></Route>
-        <Route path={'/itineraries'} component={ItinerariesPage}></Route>
-        <Route path={'/WhyUs'} component={WhyUs}></Route>
-        <Route path={'/VisaServices'} component={VisaServices}></Route>
-      </Switch>
+      <main>
+        <Switch>
+          <Route exact path='/' component={LandingPage}></Route>
+          <Route path={'/itineraries'} component={ItinerariesPage}></Route>
+          <Route path={'/WhyUs'} component={WhyUs}></Route>
+          <Route path={'/VisaServices'} component={VisaServices}></Route>
+        </Switch>
+      </main>
     </div>
   )
 }
