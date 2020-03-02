@@ -10,8 +10,8 @@ function WhyUs() {
             </p>
             <h2>Membership</h2>
             <div id='membership'>
-                <a href='https://www.gbta.org/' target='_blank' rel='noopener noreferrer'><div className='gbta'></div></a>
-                <a href='https://educationaltravel.travel/' target='_blank' rel='noopener noreferrer'><div className='etc'></div></a>
+                <a href='https://www.gbta.org/' target='_blank' rel='noopener noreferrer' aria-label='Global Business Travel Association'><div className='gbta'></div></a>
+                <a href='https://educationaltravel.travel/' target='_blank' rel='noopener noreferrer'><div className='etc' aria-label='The Educational Travel Consortium'></div></a>
             </div>
             <h2>What our clients say about us?</h2>
             <p>
