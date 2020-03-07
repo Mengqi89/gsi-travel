@@ -21,9 +21,9 @@ function ItinerariesPage() {
                 </div>
                 <div className='itinerary'>
                     <div>
-                        <a href='https://github.com/Mengqi89/gsi-travel/raw/master/src/assets/spring-break.pdf'><button className='itinerary-title'>Spring Break Tour</button></a>
+                        <a href='https://github.com/Mengqi89/gsi-travel/raw/master/src/assets/spring-break.pdf'><button className='itinerary-title'>China Highlights Tour</button></a>
                     </div>
-                    <div className='spring-break itinerary-pic'></div>
+                    <div className='china-highlights itinerary-pic'></div>
                 </div>
             </div>
         </div>
